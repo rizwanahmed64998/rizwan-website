@@ -6,9 +6,10 @@
 <style>
 
 body{
+    animation: slideshow 30s infinite;
     background:
     linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url('background.jpg.jpeg');
+    
 
     background-size: 100% auto;
     background-position: no repeat;
@@ -18,8 +19,47 @@ body{
     text-align:center;
     font-family:Arial, sans-serif;
     padding-top:40px;
+    animation: slideshow 30s infine;
+}
+@keyframes slideshow {
+
+0%{
+background-image:
+linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url('background1.jpg.jpeg');
 }
 
+20%{
+background-image:
+linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url('background2.jpg.jpeg');
+}
+
+40%{
+background-image:
+linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url('background3.jpg.jpeg');
+}
+
+60%{
+background-image:
+linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url('background4.jpg.jpeg');
+}
+
+80%{
+background-image:
+linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url('background5.jpg.jpeg');
+}
+
+100%{
+background-image:
+linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url('background6.jpg.jpeg');
+}
+
+}
 img{
     width:150px;
     height:150px;
